@@ -1,0 +1,990 @@
+<!doctype html>
+<html class="no-js" lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>MarketSupply</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+<!-- ================================ header =================================== -->
+    <header>
+        <div class="header-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2 col-sm-3">
+                        <div class="row">
+                            <div class="col-xs-6">
+                                <a href="#">
+                                    <img class="logo" src="img/logo.png" alt="MarketSupply">
+                                </a>
+                            </div>
+                            <div class="col-xs-6 text-right">
+                                <div class="header-top-nav-toggle"><span>&#8801;</span></div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="col-md-7 col-md-offset-3 col-sm-8 col-sm-offset-1">
+                        <div class="row">
+                            <ul class="header-top-nav list-inline text-right">
+                                <li><a href="#">My Account</a></li>
+                                <li><a href="#">Wishlist</a></li>
+                                <li><a href="#">My Cart</a></li>
+                                <li><a href="#">Checkout</a></li>
+                                <li><a href="#">Login</a></li>
+                            </ul>
+                        </div>
+                        <div class="row indent">
+                            <div class="col-xs-9">
+                                <input class="search" type="text" placeholder="Search here...">
+                                <button class="search-btn" type="submit"></button>
+                            </div>
+                            <div class="col-xs-3">
+                                <div class="basket">
+                                    <a class="basket-icon" href="#"></a>
+                                    <p class="basket-total">Total<br><span>$600.00</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-2 sidebar-header"><p>Categories</p></div>
+                    <div class="col-md-8 col-sm-9 col-md-offset-2 col-sm-offset-1">
+                        <ul class="main-nav list-inline">
+                            <li><a href="#">Clothing</a></li>
+                            <li><a href="#">Electronics hot</a></li>
+                            <li><a href="#">Health & Beauty</a></li>
+                            <li><a href="#">Watches</a></li>
+                            <li><a href="#">Jewellery</a></li>
+                            <li><a href="#">Shoes</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+<!-- ==================== main (menu-market+main-banner) ======================= -->
+    <main class="main-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <ul class="menu-market">
+                        <li><a href="#">Clothing</a></li>
+                        <li><a href="#">Electronics</a></li>
+                        <li><a href="#">Shoes</a></li>
+                        <li><a href="#">Watches</a></li>
+                        <li><a href="#">Jewellery</a></li>
+                        <li><a href="#">Health and Beauty</a></li>
+                        <li><a href="#">Kids and Babies</a></li>
+                        <li><a href="#">Sports</a></li>
+                        <li><a href="#">Home and Garden</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-8 col-md-offset-1">
+                    <div class="main-banner">
+                        <div class="main-banner-header">
+                            <h1>Collection 2016<br>
+                                <big>save 50% for</big><br>
+                                <span>First Purchase</span>
+                            </h1>
+                            <a class="main-banner-btn" href="#">Shop Now</a>
+                        </div>
+                        <div class="main-offer">
+                            <div class="row">
+                                <div class="main-offer-item col-sm-4 text-center">
+                                    <h4>money back</h4>
+                                    <p>30 Days Money Back Guarantee</p>
+                                </div>
+                                <div class="main-offer-item col-sm-4 text-center">
+                                    <h4>free shipping</h4>
+                                    <p>Shipping on orders over $99</p>
+                                </div>
+                                <div class="main-offer-item col-sm-4 text-center">
+                                    <h4>Special Sale</h4>
+                                    <p>Extra $5 off on all items</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+<!-- ================================ sales-slider =================================== -->
+                <div class="col-md-3">
+                            <div class="sales-box box">
+                                <div class="slider-wrap">
+                                    <h2 class="slider-item-title">Hot Deals</h2>
+                                    <div id="slider-sales" class="carousel slide" data-ride="carousel">
+                                        <!-- ============== Wrapper for slides ============== -->
+
+                                        <div class="carousel-inner" role="listbox">
+                                            <div class="sales-product-1 item active">
+                                                <img class="product-img-1 center-block" src="img/slider-sales-1.jpg" alt="Горячее предложение">
+                                                <div class="carousel-caption">
+                                                    <h3 class="sales-product-title">Lorem ipsum dolor</h3>
+                                                    <div class="sales-product-price">
+                                                        <s>$100.00</s>
+                                                        <span>$90.00</span>
+                                                    </div>
+                                                    <ul class="sales-product-rating">
+                                                        <li>&#9734;</li>
+                                                        <li>&#9734;</li>
+                                                        <li>&#9734;</li>
+                                                        <li>&#9734;</li>
+                                                        <li>&#9734;</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="sales-product-2 item">
+                                                <img class="product-img-2 center-block" src="img/slider-sales-1.jpg" alt="Горячее предложение">
+                                                <div class="carousel-caption">
+                                                    <h3 class="sales-product-title">Lorem ipsum dolor</h3>
+                                                    <div class="sales-product-price">
+                                                        <s>$100.00</s>
+                                                        <span>$90.00</span>
+                                                    </div>
+                                                    <ul class="sales-product-rating">
+                                                        <li>&#9734;</li>
+                                                        <li>&#9734;</li>
+                                                        <li>&#9734;</li>
+                                                        <li>&#9734;</li>
+                                                        <li>&#9734;</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- ============== Controls ============== -->
+                                        <a class="left carousel-control" href="#slider-sales" role="button" data-slide="prev">   
+                                        </a>
+                                        <a class="right carousel-control" href="#slider-sales" role="button" data-slide="next"> 
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                </div>
+                <div class="col-md-8 col-md-offset-1">
+<!-- ================================ new-slider ===================================== -->
+                    <div class="new-box box">
+                                    <div class="slider-wrap">
+                                        <h2 class="slider-item-title">New Products</h2>
+                                        <div id="slider-new" class="carousel slide" data-ride="carousel" data-interval="false">
+
+                                            <!-- ============== Wrapper for slides ============== -->
+
+                                            <div class="carousel-inner" role="listbox">
+                                                <div class="new-product-1 item active">
+                                                    <div class="row">
+                                                        <div class="col-xs-3 product">
+                                                            <img class="product-img-1 center-block img-responsive" src="img/slider-new-1.jpg" alt="Горячее предложение">
+                                                            <div class="carousel-caption">
+                                                                <h3 class="new-product-title">Lorem ipsum dolor</h3>
+                                                                <div class="new-product-price">
+                                                                    <s>$100.00</s>
+                                                                    <span>$90.00</span>
+                                                                </div>
+                                                                <ul class="new-product-rating">
+                                                                    <li>&#9734;</li>
+                                                                    <li>&#9734;</li>
+                                                                    <li>&#9734;</li>
+                                                                    <li>&#9734;</li>
+                                                                    <li>&#9734;</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-xs-3 product">
+                                                            <img class="product-img-1 center-block img-responsive" src="img/slider-new-2.jpg" alt="Горячее предложение">
+                                                            <div class="carousel-caption">
+                                                                <h3 class="new-product-title">Lorem ipsum dolor</h3>
+                                                                <div class="new-product-price">
+                                                                    <s>$100.00</s>
+                                                                    <span>$90.00</span>
+                                                                </div>
+                                                                <ul class="new-product-rating">
+                                                                    <li>&#9734;</li>
+                                                                    <li>&#9734;</li>
+                                                                    <li>&#9734;</li>
+                                                                    <li>&#9734;</li>
+                                                                    <li>&#9734;</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-xs-3 product">
+                                                            <img class="product-img-1 center-block img-responsive" src="img/slider-new-3.jpg" alt="Горячее предложение">
+                                                            <div class="carousel-caption">
+                                                                <h3 class="new-product-title">Lorem ipsum dolor</h3>
+                                                                <div class="new-product-price">
+                                                                    <s>$100.00</s>
+                                                                    <span>$90.00</span>
+                                                                </div>
+                                                                <ul class="new-product-rating">
+                                                                    <li>&#9734;</li>
+                                                                    <li>&#9734;</li>
+                                                                    <li>&#9734;</li>
+                                                                    <li>&#9734;</li>
+                                                                    <li>&#9734;</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-xs-3 product">
+                                                            <img class="product-img-1 center-block img-responsive" src="img/slider-new-4.jpg" alt="Горячее предложение">
+                                                            <div class="carousel-caption">
+                                                                <h3 class="new-product-title">Lorem ipsum dolor</h3>
+                                                                <div class="new-product-price">
+                                                                    <s>$100.00</s>
+                                                                    <span>$90.00</span>
+                                                                </div>
+                                                                <ul class="new-product-rating">
+                                                                    <li>&#9734;</li>
+                                                                    <li>&#9734;</li>
+                                                                    <li>&#9734;</li>
+                                                                    <li>&#9734;</li>
+                                                                    <li>&#9734;</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                                <div class="new-product-2 item">
+                                                    <div class="row">
+                                                        <div class="col-xs-3 product">
+                                                            <img class="product-img-1 center-block img-responsive" src="img/slider-new-1.jpg" alt="Горячее предложение">
+                                                            <div class="carousel-caption">
+                                                                <h3 class="new-product-title">Lorem ipsum dolor</h3>
+                                                                <div class="new-product-price">
+                                                                    <s>$100.00</s>
+                                                                    <span>$90.00</span>
+                                                                </div>
+                                                                <ul class="new-product-rating">
+                                                                    <li>&#9734;</li>
+                                                                    <li>&#9734;</li>
+                                                                    <li>&#9734;</li>
+                                                                    <li>&#9734;</li>
+                                                                    <li>&#9734;</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-xs-3 product">
+                                                            <img class="product-img-1 center-block img-responsive" src="img/slider-new-2.jpg" alt="Горячее предложение">
+                                                            <div class="carousel-caption">
+                                                                <h3 class="new-product-title">Lorem ipsum dolor</h3>
+                                                                <div class="new-product-price">
+                                                                    <s>$100.00</s>
+                                                                    <span>$90.00</span>
+                                                                </div>
+                                                                <ul class="new-product-rating">
+                                                                    <li>&#9734;</li>
+                                                                    <li>&#9734;</li>
+                                                                    <li>&#9734;</li>
+                                                                    <li>&#9734;</li>
+                                                                    <li>&#9734;</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-xs-3 product">
+                                                            <img class="product-img-1 center-block img-responsive" src="img/slider-new-3.jpg" alt="Горячее предложение">
+                                                            <div class="carousel-caption">
+                                                                <h3 class="new-product-title">Lorem ipsum dolor</h3>
+                                                                <div class="new-product-price">
+                                                                    <s>$100.00</s>
+                                                                    <span>$90.00</span>
+                                                                </div>
+                                                                <ul class="new-product-rating">
+                                                                    <li>&#9734;</li>
+                                                                    <li>&#9734;</li>
+                                                                    <li>&#9734;</li>
+                                                                    <li>&#9734;</li>
+                                                                    <li>&#9734;</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-xs-3 product">
+                                                            <img class="product-img-1 center-block img-responsive" src="img/slider-new-4.jpg" alt="Горячее предложение">
+                                                            <div class="carousel-caption">
+                                                                <h3 class="new-product-title">Lorem ipsum dolor</h3>
+                                                                <div class="new-product-price">
+                                                                    <s>$100.00</s>
+                                                                    <span>$90.00</span>
+                                                                </div>
+                                                                <ul class="new-product-rating">
+                                                                    <li>&#9734;</li>
+                                                                    <li>&#9734;</li>
+                                                                    <li>&#9734;</li>
+                                                                    <li>&#9734;</li>
+                                                                    <li>&#9734;</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>  
+                                            <!-- ============== Controls ============== -->
+                                            <a class="left carousel-control" href="#slider-new" role="button" data-slide="prev">   
+                                            </a>
+                                            <a class="right carousel-control" href="#slider-new" role="button" data-slide="next"> 
+                                            </a>
+                                        </div>
+                                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+<!-- ================================ stock-slider ==================================== -->
+                    <div class="stock-box box">
+                                <div class="slider-wrap">
+                                    <h2 class="slider-item-title">Special Deal</h2>
+                                    <div id="slider-stock" class="carousel slide" data-ride="carousel">
+                                        <!-- ============== Wrapper for slides ============== -->
+
+                                        <div class="carousel-inner" role="listbox">
+                                            <div class="stock-product-1 item active">
+                                                <img class="stock-product-img-1 center-block" src="img/slider-stock-1.jpg" alt="Горячее предложение">
+                                                <div class="carousel-caption">
+                                                    <h3 class="stock-product-title">Lorem ipsum dolor</h3>
+                                                    <div class="stock-product-price">
+                                                        <s>$100.00</s>
+                                                        <span>$90.00</span>
+                                                    </div>
+                                                    <ul class="stock-product-rating">
+                                                        <li>&#9734;</li>
+                                                        <li>&#9734;</li>
+                                                        <li>&#9734;</li>
+                                                        <li>&#9734;</li>
+                                                        <li>&#9734;</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="stock-product-2 item">
+                                                <img class="stock-product-img-2 center-block" src="img/slider-stock-1.jpg" alt="Горячее предложение">
+                                                <div class="carousel-caption">
+                                                    <h3 class="stock-product-title">Lorem ipsum dolor</h3>
+                                                    <div class="stock-product-price">
+                                                        <s>$100.00</s>
+                                                        <span>$90.00</span>
+                                                    </div>
+                                                    <ul class="stock-product-rating">
+                                                        <li>&#9734;</li>
+                                                        <li>&#9734;</li>
+                                                        <li>&#9734;</li>
+                                                        <li>&#9734;</li>
+                                                        <li>&#9734;</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- ============== Controls ============== -->
+                                        <a class="left carousel-control" href="#slider-stock" role="button" data-slide="prev">   
+                                        </a>
+                                        <a class="right carousel-control" href="#slider-stock" role="button" data-slide="next"> 
+                                        </a>
+                                    </div>
+                                </div>
+                    </div>
+<!-- ================================ subscribe-box =================================== -->
+                    <div class="subscribe-box box">
+                        <h2 class="subscribe-title">Newsletters</h2>
+                        <p>Sign Up for Our Newsletter!</p>
+                        <input type="text" class="subscribe-input">
+                        <button class="main-btn">Subscribe</button>
+                    </div>
+                </div>
+                <div class="col-md-8 col-md-offset-1">
+<!-- =================================== offer ======================================== -->
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <div class="offer left">
+                                <img class="img-responsive" src="img/offer_1-bg.jpg" alt="Распродажа 2016">
+                            </div>
+                        </div>
+                        <div class="col-xs-6">
+                            <div class="offer right">
+                                <img class="img-responsive" src="img/offer_2-bg.jpg" alt="Распродажа 2016">
+                            </div>
+                        </div>
+                    </div>
+<!-- ================================ latest-slider =================================== -->
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="latest-box box">
+                                <div class="slider-wrap">
+                                    <h2 class="slider-item-title">Latest Products</h2>
+                                    <div id="slider-latest" class="carousel slide" data-ride="carousel" data-interval="false">
+
+                                        <!-- ============== Wrapper for slides ============== -->
+
+                                        <div class="carousel-inner" role="listbox">
+                                            <div class="latest-product-1 item active">
+                                                <div class="row">
+                                                    <div class="col-xs-3 product">
+                                                        <img class="product-img-1 center-block img-responsive" src="img/slider-latest-1.jpg" alt="Горячее предложение">
+                                                        <div class="carousel-caption">
+                                                            <h3 class="latest-product-title">Lorem ipsum dolor</h3>
+                                                                    <div class="latest-product-price">
+                                                                <s>$100.00</s>
+                                                                <span>$90.00</span>
+                                                            </div>
+                                                            <ul class="latest-product-rating">
+                                                                <li>&#9734;</li>
+                                                                <li>&#9734;</li>
+                                                                <li>&#9734;</li>
+                                                                <li>&#9734;</li>
+                                                                <li>&#9734;</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xs-3 product">
+                                                        <img class="product-img-1 center-block img-responsive" src="img/slider-latest-2.jpg" alt="Горячее предложение">
+                                                        <div class="carousel-caption">
+                                                            <h3 class="latest-product-title">Lorem ipsum dolor</h3>
+                                                            <div class="latest-product-price">
+                                                                <s>$100.00</s>
+                                                                <span>$90.00</span>
+                                                            </div>
+                                                            <ul class="latest-product-rating">
+                                                                <li>&#9734;</li>
+                                                                <li>&#9734;</li>
+                                                                <li>&#9734;</li>
+                                                                <li>&#9734;</li>
+                                                                <li>&#9734;</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xs-3 product">
+                                                        <img class="product-img-1 center-block img-responsive" src="img/slider-latest-3.jpg" alt="Горячее предложение">
+                                                        <div class="carousel-caption">
+                                                            <h3 class="latest-product-title">Lorem ipsum dolor</h3>
+                                                            <div class="latest-product-price">
+                                                                <s>$100.00</s>
+                                                                <span>$90.00</span>
+                                                            </div>
+                                                            <ul class="latest-product-rating">
+                                                                <li>&#9734;</li>
+                                                                <li>&#9734;</li>
+                                                                <li>&#9734;</li>
+                                                                <li>&#9734;</li>
+                                                                <li>&#9734;</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xs-3 product">
+                                                        <img class="product-img-1 center-block img-responsive" src="img/slider-latest-4.jpg" alt="Горячее предложение">
+                                                        <div class="carousel-caption">
+                                                            <h3 class="latest-product-title">Lorem ipsum dolor</h3>
+                                                            <div class="latest-product-price">
+                                                                <s>$100.00</s>
+                                                                <span>$90.00</span>
+                                                            </div>
+                                                            <ul class="latest-product-rating">
+                                                                <li>&#9734;</li>
+                                                                <li>&#9734;</li>
+                                                                <li>&#9734;</li>
+                                                                <li>&#9734;</li>
+                                                                <li>&#9734;</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                        </div>
+                                            </div> 
+                                            <div class="latest-product-2 item">
+                                                <div class="row">
+                                                    <div class="col-xs-3 product">
+                                                        <img class="product-img-1 center-block img-responsive" src="img/slider-latest-1.jpg" alt="Горячее предложение">
+                                                        <div class="carousel-caption">
+                                                            <h3 class="latest-product-title">Lorem ipsum dolor</h3>
+                                                            <div class="latest-product-price">
+                                                                <s>$100.00</s>
+                                                                <span>$90.00</span>
+                                                            </div>
+                                                            <ul class="latest-product-rating">
+                                                                <li>&#9734;</li>
+                                                                <li>&#9734;</li>
+                                                                <li>&#9734;</li>
+                                                                <li>&#9734;</li>
+                                                                <li>&#9734;</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xs-3 product">
+                                                        <img class="product-img-1 center-block img-responsive" src="img/slider-latest-2.jpg" alt="Горячее предложение">
+                                                        <div class="carousel-caption">
+                                                            <h3 class="latest-product-title">Lorem ipsum dolor</h3>
+                                                            <div class="latest-product-price">
+                                                                <s>$100.00</s>
+                                                                <span>$90.00</span>
+                                                            </div>
+                                                            <ul class="latest-product-rating">
+                                                                <li>&#9734;</li>
+                                                                <li>&#9734;</li>
+                                                                <li>&#9734;</li>
+                                                                <li>&#9734;</li>
+                                                                <li>&#9734;</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xs-3 product">
+                                                        <img class="product-img-1 center-block img-responsive" src="img/slider-latest-3.jpg" alt="Горячее предложение">
+                                                        <div class="carousel-caption">
+                                                            <h3 class="latest-product-title">Lorem ipsum dolor</h3>
+                                                            <div class="latest-product-price">
+                                                                <s>$100.00</s>
+                                                                <span>$90.00</span>
+                                                            </div>
+                                                            <ul class="latest-product-rating">
+                                                                <li>&#9734;</li>
+                                                                <li>&#9734;</li>
+                                                                <li>&#9734;</li>
+                                                                <li>&#9734;</li>
+                                                                <li>&#9734;</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xs-3 product">
+                                                        <img class="product-img-1 center-block img-responsive" src="img/slider-latest-4.jpg" alt="Горячее предложение">
+                                                        <div class="carousel-caption">
+                                                            <h3 class="latest-product-title">Lorem ipsum dolor</h3>
+                                                            <div class="latest-product-price">
+                                                                <s>$100.00</s>
+                                                                <span>$90.00</span>
+                                                            </div>
+                                                            <ul class="latest-product-rating">
+                                                                <li>&#9734;</li>
+                                                                <li>&#9734;</li>
+                                                                <li>&#9734;</li>
+                                                                <li>&#9734;</li>
+                                                                <li>&#9734;</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div> 
+                                        </div>  
+                                        <!-- ============== Controls ============== -->
+                                        <a class="left carousel-control" href="#slider-latest" role="button" data-slide="prev">   
+                                        </a>
+                                        <a class="right carousel-control" href="#slider-latest" role="button" data-slide="next"> 
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+<!-- ================================= offer-big ====================================== -->
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="offer-big box">
+                                <div class="offer-big-wrap col-sm-offset-7">
+                                    <h2 class="offer-big-title">Beautiful Laptop<br><span>Retina Display 18” Ready!</span></h2>
+                                    <button class="main-btn">Shop Now</button>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+<!-- ================================ recommend-slider ================================ -->
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="recommend-box box">
+                                    <div class="slider-wrap">
+                                        <h2 class="slider-item-title">Featured products</h2>
+                                        <div id="slider-recommend" class="carousel slide" data-ride="carousel" data-interval="false">
+
+                                            <!-- ============== Wrapper for slides ============== -->
+
+                                            <div class="carousel-inner" role="listbox">
+                                                <div class="recommend-product-1 item active">
+                                                    <div class="row top-item">
+                                                        <div class="col-lg-4 col-xs-6 product">
+                                                            <img class="product-img-1" src="img/slider-recommend-1.jpg" alt="Горячее предложение">
+                                                            <div class="carousel-caption pull-right">
+                                                                <h3 class="recommend-product-title">Lorem ipsum dolor</h3>
+                                                                <div class="recommend-product-price">
+                                                                    <s>$100.00</s>
+                                                                    <span>$90.00</span>
+                                                                </div>
+                                                                <ul class="recommend-product-rating">
+                                                                    <li>&#9734;</li>
+                                                                    <li>&#9734;</li>
+                                                                    <li>&#9734;</li>
+                                                                    <li>&#9734;</li>
+                                                                    <li>&#9734;</li>
+                                                                </ul>
+                                                            </div>    
+                                                        </div>
+                                                        <div class="col-lg-4 col-xs-6 product">
+                                                            <img class="product-img-1" src="img/slider-recommend-2.jpg" alt="Горячее предложение">
+                                                            <div class="carousel-caption pull-right">
+                                                                <h3 class="recommend-product-title">Lorem ipsum dolor</h3>
+                                                                <div class="recommend-product-price">
+                                                                    <s>$100.00</s>
+                                                                    <span>$90.00</span>
+                                                                </div>
+                                                                <ul class="recommend-product-rating">
+                                                                    <li>&#9734;</li>
+                                                                    <li>&#9734;</li>
+                                                                    <li>&#9734;</li>
+                                                                    <li>&#9734;</li>
+                                                                    <li>&#9734;</li>
+                                                                </ul>
+                                                            </div>    
+                                                        </div>
+                                                        <div class="col-lg-4 product visible-lg">
+                                                            <img class="product-img-1" src="img/slider-recommend-3.jpg" alt="Горячее предложение">
+                                                            <div class="carousel-caption pull-right">
+                                                                <h3 class="recommend-product-title">Lorem ipsum dolor</h3>
+                                                                <div class="recommend-product-price">
+                                                                    <s>$100.00</s>
+                                                                    <span>$90.00</span>
+                                                                </div>
+                                                                <ul class="recommend-product-rating">
+                                                                    <li>&#9734;</li>
+                                                                    <li>&#9734;</li>
+                                                                    <li>&#9734;</li>
+                                                                    <li>&#9734;</li>
+                                                                    <li>&#9734;</li>
+                                                                </ul>
+                                                            </div>    
+                                                        </div>  
+                                                    </div>
+                                                     <div class="row">
+                                                        <div class="col-lg-4 col-xs-6 product">
+                                                            <img class="product-img-1" src="img/slider-recommend-4.jpg" alt="Горячее предложение">
+                                                            <div class="carousel-caption pull-right">
+                                                                <h3 class="recommend-product-title">Lorem ipsum dolor</h3>
+                                                                <div class="recommend-product-price">
+                                                                    <s>$100.00</s>
+                                                                    <span>$90.00</span>
+                                                                </div>
+                                                                <ul class="recommend-product-rating">
+                                                                    <li>&#9734;</li>
+                                                                    <li>&#9734;</li>
+                                                                    <li>&#9734;</li>
+                                                                    <li>&#9734;</li>
+                                                                    <li>&#9734;</li>
+                                                                </ul>
+                                                            </div>    
+                                                        </div>
+                                                        <div class="col-lg-4 col-xs-6 product">
+                                                            <img class="product-img-1" src="img/slider-recommend-5.jpg" alt="Горячее предложение">
+                                                            <div class="carousel-caption pull-right">
+                                                                <h3 class="recommend-product-title">Lorem ipsum dolor</h3>
+                                                                <div class="recommend-product-price">
+                                                                    <s>$100.00</s>
+                                                                    <span>$90.00</span>
+                                                                </div>
+                                                                <ul class="recommend-product-rating">
+                                                                    <li>&#9734;</li>
+                                                                    <li>&#9734;</li>
+                                                                    <li>&#9734;</li>
+                                                                    <li>&#9734;</li>
+                                                                    <li>&#9734;</li>
+                                                                </ul>
+                                                            </div>    
+                                                        </div>
+                                                        <div class="col-lg-4 product visible-lg">
+                                                            <img class="product-img-1" src="img/slider-recommend-6.jpg" alt="Горячее предложение">
+                                                            <div class="carousel-caption pull-right">
+                                                                <h3 class="recommend-product-title">Lorem ipsum dolor</h3>
+                                                                <div class="recommend-product-price">
+                                                                    <s>$100.00</s>
+                                                                    <span>$90.00</span>
+                                                                </div>
+                                                                <ul class="recommend-product-rating">
+                                                                    <li>&#9734;</li>
+                                                                    <li>&#9734;</li>
+                                                                    <li>&#9734;</li>
+                                                                    <li>&#9734;</li>
+                                                                    <li>&#9734;</li>
+                                                                </ul>
+                                                            </div>    
+                                                        </div>  
+                                                    </div>
+                                                </div>
+                                                <div class="recommend-product-2 item">
+                                                    <div class="row top-item">
+                                                        <div class="col-lg-4 col-xs-6 product">
+                                                            <img class="product-img-1" src="img/slider-recommend-1.jpg" alt="Горячее предложение">
+                                                            <div class="carousel-caption pull-right">
+                                                                <h3 class="recommend-product-title">Lorem ipsum dolor</h3>
+                                                                <div class="recommend-product-price">
+                                                                    <s>$100.00</s>
+                                                                    <span>$90.00</span>
+                                                                </div>
+                                                                <ul class="recommend-product-rating">
+                                                                    <li>&#9734;</li>
+                                                                    <li>&#9734;</li>
+                                                                    <li>&#9734;</li>
+                                                                    <li>&#9734;</li>
+                                                                    <li>&#9734;</li>
+                                                                </ul>
+                                                            </div>    
+                                                        </div>
+                                                        <div class="col-lg-4 col-xs-6 product">
+                                                            <img class="product-img-1" src="img/slider-recommend-2.jpg" alt="Горячее предложение">
+                                                            <div class="carousel-caption pull-right">
+                                                                <h3 class="recommend-product-title">Lorem ipsum dolor</h3>
+                                                                <div class="recommend-product-price">
+                                                                    <s>$100.00</s>
+                                                                    <span>$90.00</span>
+                                                                </div>
+                                                                <ul class="recommend-product-rating">
+                                                                    <li>&#9734;</li>
+                                                                    <li>&#9734;</li>
+                                                                    <li>&#9734;</li>
+                                                                    <li>&#9734;</li>
+                                                                    <li>&#9734;</li>
+                                                                </ul>
+                                                            </div>    
+                                                        </div>
+                                                        <div class="col-lg-4 product visible-lg">
+                                                            <img class="product-img-1" src="img/slider-recommend-3.jpg" alt="Горячее предложение">
+                                                            <div class="carousel-caption pull-right">
+                                                                <h3 class="recommend-product-title">Lorem ipsum dolor</h3>
+                                                                <div class="recommend-product-price">
+                                                                    <s>$100.00</s>
+                                                                    <span>$90.00</span>
+                                                                </div>
+                                                                <ul class="recommend-product-rating">
+                                                                    <li>&#9734;</li>
+                                                                    <li>&#9734;</li>
+                                                                    <li>&#9734;</li>
+                                                                    <li>&#9734;</li>
+                                                                    <li>&#9734;</li>
+                                                                </ul>
+                                                            </div>    
+                                                        </div>  
+                                                    </div>
+                                                     <div class="row">
+                                                        <div class="col-lg-4 col-xs-6 product">
+                                                            <img class="product-img-1" src="img/slider-recommend-4.jpg" alt="Горячее предложение">
+                                                            <div class="carousel-caption pull-right">
+                                                                <h3 class="recommend-product-title">Lorem ipsum dolor</h3>
+                                                                <div class="recommend-product-price">
+                                                                    <s>$100.00</s>
+                                                                    <span>$90.00</span>
+                                                                </div>
+                                                                <ul class="recommend-product-rating">
+                                                                    <li>&#9734;</li>
+                                                                    <li>&#9734;</li>
+                                                                    <li>&#9734;</li>
+                                                                    <li>&#9734;</li>
+                                                                    <li>&#9734;</li>
+                                                                </ul>
+                                                            </div>    
+                                                        </div>
+                                                        <div class="col-lg-4 col-xs-6 product">
+                                                            <img class="product-img-1" src="img/slider-recommend-5.jpg" alt="Горячее предложение">
+                                                            <div class="carousel-caption pull-right">
+                                                                <h3 class="recommend-product-title">Lorem ipsum dolor</h3>
+                                                                <div class="recommend-product-price">
+                                                                    <s>$100.00</s>
+                                                                    <span>$90.00</span>
+                                                                </div>
+                                                                <ul class="recommend-product-rating">
+                                                                    <li>&#9734;</li>
+                                                                    <li>&#9734;</li>
+                                                                    <li>&#9734;</li>
+                                                                    <li>&#9734;</li>
+                                                                    <li>&#9734;</li>
+                                                                </ul>
+                                                            </div>    
+                                                        </div>
+                                                        <div class="col-lg-4 product visible-lg">
+                                                            <img class="product-img-1" src="img/slider-recommend-6.jpg" alt="Горячее предложение">
+                                                            <div class="carousel-caption pull-right">
+                                                                <h3 class="recommend-product-title">Lorem ipsum dolor</h3>
+                                                                <div class="recommend-product-price">
+                                                                    <s>$100.00</s>
+                                                                    <span>$90.00</span>
+                                                                </div>
+                                                                <ul class="recommend-product-rating">
+                                                                    <li>&#9734;</li>
+                                                                    <li>&#9734;</li>
+                                                                    <li>&#9734;</li>
+                                                                    <li>&#9734;</li>
+                                                                    <li>&#9734;</li>
+                                                                </ul>
+                                                            </div>    
+                                                        </div>  
+                                                    </div>
+                                                </div>  
+                                                
+                                            </div>  
+                                            <!-- ============== Controls ============== -->
+                                            <a class="left carousel-control" href="#slider-recommend" role="button" data-slide="prev">   
+                                            </a>
+                                            <a class="right carousel-control" href="#slider-recommend" role="button" data-slide="next"> 
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- ===================================== lables ===================================== -->
+        <div class="lables clearfix">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-2">
+                            <div class="lables-wrap text-center">
+                                <a href="#">
+                                    <img class="img-responsive" src="img/lables-item-1.jpg" alt="Бренд_1">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xs-2">
+                            <div class="lables-wrap text-center">
+                                <a href="#">
+                                    <img class="img-responsive" src="img/lables-item-2.jpg" alt="Бренд_2">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xs-2">
+                            <div class="lables-wrap text-center">
+                                <a href="#">
+                                    <img class="img-responsive" src="img/lables-item-3.jpg" alt="Бренд_3">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xs-2">
+                            <div class="lables-wrap text-center">
+                                <a href="#">
+                                    <img class="img-responsive" src="img/lables-item-4.jpg" alt="Бренд_4">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xs-2">
+                            <div class="lables-wrap text-center">
+                                <a href="#">
+                                    <img class="img-responsive" src="img/lables-item-5.jpg" alt="Бренд_5">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xs-2">
+                            <div class="lables-wrap text-center">
+                                <a href="#">
+                                    <img class="img-responsive" src="img/lables-item-6.jpg" alt="Бренд_6">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>            
+            </div> 
+    </main>
+<!-- =================================== footer ======================================= -->
+    <footer>
+            <div class="footer-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <a href="#">
+                                <img class="logo" src="img/logo.png" alt="MarketSupply">
+                            </a>
+                            <p class="footer-info">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh velit it’s a cold world out there.</p>
+                            <p class="footer-contact">
+                                <span class="footer-info-address contact">0123  Main Road, Your City, NY 123456</span>
+                                <span class="footer-info-tel contact">(000) 2345 - 6789</span>
+                                <span class="footer-info-email contact">info@psdfreebies.com</span>
+                            </p>
+                        </div>
+                        <div class="col-md-3">
+                            <h3 class="footer-top-title">Information</h3>
+                            <ul class="footer-top-info">
+                                <li><a href="#">Our Story</a></li>
+                                <li><a href="#">Privacy & Policy</a></li>
+                                <li><a href="#">Terms & Conditions</a></li>
+                                <li><a href="#">Shipping & Delivery</a></li>
+                                <li><a href="#">Careers</a></li>
+                                <li><a href="#">FAQs</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3">
+                            <h3 class="footer-top-title">Our Social</h3>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <ul class="footer-top-social social-left">
+                                        <li><a href="#">Google+</a></li>
+                                        <li><a href="#">Pinterest</a></li>
+                                        <li><a href="#">Vimeo</a></li>
+                                        <li><a href="#">Instagram</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-sm-6">
+                                    <ul class="footer-top-social social-right">
+                                        <li><a href="#">Facebook</a></li>
+                                        <li><a href="#">Twitter</a></li>
+                                        <li><a href="#">RSS</a></li>
+                                        <li><a href="#">YouTube</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <h3 class="footer-top-title">Opening Time</h3>
+                            <p class="footer-top-time">Monday - Friday: 08:30 am - 09:30 pm<br><span>Sat - Sun: 09:00 am - 10:00 pm</span></p>
+                            <h3 class="footer-top-title">Payment Option</h3>
+                            <ul class="footer-pay list-inline">
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom text-center">
+                <ul class="footer-bottom-nav list-inline">
+                    <li><a href="#">Sitemap</a></li>
+                    <li><a href="#">Searchs </a></li>
+                    <li><a href="#">Searchs</a></li>
+                    <li><a href="#">Advance</a></li>
+                    <li><a href="#">Searchs</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+                <p class="copy text-center">© 2016  PSDFreebies.com  |   All Rights Reserved. </p>            
+            </div>
+    </footer>
+        
+            
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='https://www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+        </script>
+        <script src="js/bootstrap.js"></script>
+    </body>
+</html>
